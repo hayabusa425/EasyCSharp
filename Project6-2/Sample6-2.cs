@@ -133,6 +133,6 @@ class Sample4 : Form
             str = "Ather keys";
         }
 
-        lb2.Text = "It is" + str;
+        lb2.Text = "It's" + str;
     }
 }
