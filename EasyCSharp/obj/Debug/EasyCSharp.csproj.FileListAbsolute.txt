@@ -1,0 +1,1 @@
+c:\users\hayato\documents\visual studio 2015\Projects\EasyCSharp\EasyCSharp\bin\Debug\EasyCSharp.exe.config
