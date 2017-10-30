@@ -1,0 +1,6 @@
+C:\Users\hayato\documents\visual studio 2015\Projects\EasyCSharp\Sample8-3\bin\Debug\Sample8-3.exe.config
+C:\Users\hayato\documents\visual studio 2015\Projects\EasyCSharp\Sample8-3\bin\Debug\Sample8-3.exe
+C:\Users\hayato\documents\visual studio 2015\Projects\EasyCSharp\Sample8-3\bin\Debug\Sample8-3.pdb
+C:\Users\hayato\documents\visual studio 2015\Projects\EasyCSharp\Sample8-3\obj\Debug\Project8-3.csprojResolveAssemblyReference.cache
+C:\Users\hayato\documents\visual studio 2015\Projects\EasyCSharp\Sample8-3\obj\Debug\Sample8-3.exe
+C:\Users\hayato\documents\visual studio 2015\Projects\EasyCSharp\Sample8-3\obj\Debug\Sample8-3.pdb

@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Windows.Forms;
 
+/*
 class Sample3 : Form
 {
     private Bitmap bm1, bm2;
@@ -72,5 +74,39 @@ class Sample3 : Form
     {
         Graphics g = e.Graphics;
         g.DrawImage(bm2, 0, 0, 400, 300);
+    }
+}
+*/
+
+class Sample5 : Form
+{
+    private Image im;
+
+    public static void Main()
+    {
+        Application.Run(new Sample5());
+    }
+    
+    public Sample5()
+    {
+        im = Image.FromFile("c:\\EasyCSharp\\mini.jpg");
+
+        this.Text = "Sample";
+        this.ClientSize = new Size(400, 300);
+        this.BackColor = Color.Black;
+
+        this.Paint += new PaintEventHandler(fm_Paint);
+    }
+
+    public void fm_Paint(Object sender, PaintEventArgs e)
+    {
+        Graphics g = e.Graphics;
+        GraphicsPath gp = new GraphicsPath();
+
+        gp.AddEllipse(new Rectangle(0, 0, 400, 300));
+        Region rg = new Region(gp);
+        g.Clip = rg;
+
+        g.DrawImage(im, 0, 0, 400, 300);
     }
 }
