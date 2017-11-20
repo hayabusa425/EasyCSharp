@@ -36,7 +36,7 @@ class practice3
         Label lb2 = new Label();
         lb1.Text = "hello";
         lb2.Text = "Good bye";
-        lb2.Left = 100;
+        lb2.Top = 20;
         lb1.Parent = fm;
         lb2.Parent = fm;
 
